@@ -3,13 +3,14 @@ package com.datastructure;
 import java.util.Scanner;
 
 /**
- * UC3 - - LinkedList Sequence: 56->30->70
+ * UC4 - Ability to delete the first
  *
  * Requirements:
-     *   - Ability to insert
-     *   - 30 between 56
-     *   - and 70
-     *   - Final Sequence: 56->30->70
+     *   - element in the LinkedList
+     *   - of sequence 56->30->70
+     *   - Write pop method
+     *   - Note there is new head
+     *   - Final Sequence: 30->70
  *
  * @author  VignejanBridgeLabz
  * @version 1.0
@@ -19,12 +20,12 @@ public class DataStructureMain {
     public static void main(String[] args) {
         System.out.println("Welcome to DataStructure");
         
-        System.out.println("\n=== UC3: - LinkedList Sequence: 56->30->70 ===");
-        // LinkedList operations
-        java.util.LinkedList<Integer> list = new java.util.LinkedList<>();
-        list.add(56); list.add(30); list.add(70);
-        System.out.println("LinkedList: " + list);
-        // TODO: Implement specific LinkedList operation for UC3
-        // Ability to insert; 30 between 56
+        System.out.println("\n=== UC4: Ability to delete the first ===");
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter name to delete: ");
+        String name = scanner.nextLine();
+        // TODO: Implement delete logic
+        System.out.println("Delete operation for: " + name);
+        scanner.close();
     }
 }

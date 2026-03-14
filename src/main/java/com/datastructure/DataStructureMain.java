@@ -3,14 +3,13 @@ package com.datastructure;
 import java.util.Scanner;
 
 /**
- * UC1 - then 56 to make 56 on top of the Stack
+ * UC3 - then 70 to make 56 on top of the Stack
  *
  * Requirements:
-     *   - Ability to peak and
-     *   - pop from the Stack
-     *   - till it is empty
-     *   - 56->30->70
-     *   - Use LinkedList to do the Stack
+     *   - Ability to dequeue
+     *   - from the beginning
+     *   - Use LinkedList to do the
+     *   - Queue Operations
  *
  * @author  VignejanBridgeLabz
  * @version 1.0
@@ -20,7 +19,7 @@ public class DataStructureMain {
     public static void main(String[] args) {
         System.out.println("Welcome to DataStructure");
         
-        System.out.println("\n=== UC1: then 56 to make 56 on top of the Stack ===");
+        System.out.println("\n=== UC3: then 70 to make 56 on top of the Stack ===");
         // Stack using LinkedList (LIFO)
         java.util.LinkedList<Integer> stack = new java.util.LinkedList<>();
         stack.add(70); stack.add(30); stack.add(56); // push order
